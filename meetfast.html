@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Быстрый вход на уроки</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .day-block {
+      margin-bottom: 40px;
+    }
+    .day-block h2 {
+      margin-bottom: 10px;
+    }
+    .schedule {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 8px 16px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="day-block">
+    <h2>Быстрый вход на уроки понедельника</h2>
+    <p class="schedule">Алгебра 9:00, Мистецтво 9:50, Укр. мова 10:40, Гром. освіта 11:30, Физика 12:20, География 14:00</p>
+    <button onclick="openMondayLinks()">Открыть все уроки</button>
+  </div>
+
+  <div class="day-block">
+    <h2>Быстрый вход на уроки вторника</h2>
+    <p class="schedule">Физра 9:50, Укр. мова 10:40, Физика 11:30, История 12:20, Химия 13:10, География 13:10, Алгебра 14:00</p>
+    <button onclick="openTuesdayLinks()">Открыть все уроки</button>
+  </div>
+
+  <div class="day-block">
+    <h2>Быстрый вход на уроки среды</h2>
+    <p class="schedule">Биология 9:00, Алгебра 9:50, Захист Укр 10:40, Англ 11:30, Англ 12:20, Информатика 13:10</p>
+    <button onclick="openWednesdayLinks()">Открыть все уроки</button>
+  </div>
+
+  <div class="day-block">
+    <h2>Быстрый вход на уроки четверга</h2>
+    <p class="schedule">Геометрия 9:00, Укр. мова 9:50, История Укр 10:40, Захист Украины 11:30, Укр. лит 12:20, Химия 13:10</p>
+    <button onclick="openThursdayLinks()">Открыть все уроки</button>
+  </div>
+
+  <div class="day-block">
+    <h2>Быстрый вход на уроки пятницы</h2>
+    <p class="schedule">Укр. мова 9:00, Укр. лит 9:50, Англ 10:40, История Укр 11:30, История Укр 12:10</p>
+    <button onclick="openFridayLinks()">Открыть все уроки</button>
+  </div>
+
+  <script>
+    function openMondayLinks() {
+      const links = [
+        'https://meet.google.com/tws-yxap-xzb',
+        'https://meet.google.com/sdw-wrip-asw',
+        'https://meet.google.com/szy-vmdy-hpx',
+        'https://meet.google.com/bjz-gkxx-ghz',
+        'https://meet.google.com/pdy-spdw-air',
+        'https://meet.google.com/gzv-maxh-nzu'
+      ];
+      links.forEach(link => window.open(link, '_blank'));
+    }
+
+    function openTuesdayLinks() {
+      const links = [
+        'https://meet.google.com/onz-rvuf-pwc',
+        'https://meet.google.com/szy-vmdy-hpx',
+        'https://meet.google.com/pdy-spdw-air',
+        'https://meet.google.com/bjz-gkxx-ghz',
+        'https://meet.google.com/wza-ycrc-vdi',
+        'https://meet.google.com/gzv-maxh-nzu',
+        'https://meet.google.com/tws-yxap-xzb'
+      ];
+      links.forEach(link => window.open(link, '_blank'));
+    }
+
+    function openWednesdayLinks() {
+      const links = [
+        'https://meet.google.com/oyw-neib-mwc',
+        'https://meet.google.com/tws-yxap-xzb',
+        'https://meet.google.com/bjz-gkxx-ghz',
+        'https://meet.google.com/dqz-yjaj-fjg',
+        'https://meet.google.com/dqz-yjaj-fjg',
+        'https://meet.google.com/syh-bvvm-ykq'
+      ];
+      links.forEach(link => window.open(link, '_blank'));
+    }
+
+    function openThursdayLinks() {
+      const links = [
+        'https://meet.google.com/zkb-ejoe-szj',
+        'https://meet.google.com/szy-vmdy-hpx',
+        'https://meet.google.com/bjz-gkxx-ghz',
+        'https://meet.google.com/hfb-qege-orb',
+        'https://meet.google.com/tiz-kfmq-irn',
+        'https://meet.google.com/wza-ycrc-vdi'
+      ];
+      links.forEach(link => window.open(link, '_blank'));
+    }
+
+    function openFridayLinks() {
+      const links = [
+        'https://meet.google.com/szy-vmdy-hpx',
+        'https://meet.google.com/tiz-kfmq-irn',
+        'https://meet.google.com/dqz-yjaj-fjg',
+        'https://meet.google.com/bjz-gkxx-ghz',
+        'https://meet.google.com/bjz-gkxx-ghz'
+      ];
+      links.forEach(link => window.open(link, '_blank'));
+    }
+  </script>
+
+</body>
+</html>

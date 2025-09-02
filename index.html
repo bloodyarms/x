@@ -3,46 +3,106 @@
 <head>
   <meta charset="UTF-8">
   <title>Уроки Meet</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: var(--bg, #fff);
+      color: var(--fg, #000);
+      margin: 20px;
+      transition: background 0.3s, color 0.3s;
+    }
+    button {
+      display: block;
+      margin: 5px 0;
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+    .toggle-theme {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 10px 15px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      background: #ccc;
+    }
+  </style>
 </head>
 <body>
   <h1>Выбор урока понедельник</h1>
-  <button onclick="window.open('https://meet.google.com/tws-yxap-xzb')">алгебра 9 00</button>
-  <button onclick="window.open('https://meet.google.com/sdw-wrip-asw')">мистецтво 9 50</button>
-  <button onclick="window.open('https://meet.google.com/szy-vmdy-hpx')">укр мова 10 40</button>
-  <button onclick="window.open('https://meet.google.com/bjz-gkxx-ghz')">гром освита 11 30</button>
-  <button onclick="window.open('https://meet.google.com/pdy-spdw-air')">физика 12 20</button>
-  <button onclick="window.open('https://meet.google.com/gzv-maxh-nzu')">география 14 00</button>
-</body>
+  <button onclick="window.open('https://meet.google.com/szy-vmdy-hpx?authuser=0')">Укр мова 9:00</button>
+  <button onclick="window.open('https://meet.google.com/bjz-gkxx-ghz?authuser=0')">История украины 9:55</button>
+  <button onclick="window.open('https://meet.google.com/dqz-yjaj-fjg?authuser=0')">английский язык 11:00</button>
+  <button onclick="window.open('https://meet.google.com/szy-vmdy-hpx?authuser=0')">укр мова 12:00</button>
+  <button onclick="window.open('https://meet.google.com/tws-yxap-xzb?authuser=0')">алгебра 13:00</button>
+  <button onclick="window.open('https://meet.google.com/zkb-ejoe-szj?authuser=0')">геометрия 14:00</button>
+  <button onclick="window.open('https://meet.google.com/syh-bvvm-ykq')">астрономия 15:00 (нет онлайн)</button>
+  <button onclick="window.open('https://meet.google.com/syh-bvvm-ykq?authuser=0')">информатика 16:00</button>
+
   <h1>Выбор урока вторник</h1>
-  <button onclick="window.open('https://meet.google.com/onz-rvuf-pwc')">физра 9 50</button>
-  <button onclick="window.open('https://meet.google.com/szy-vmdy-hpx')">укр мова 10 40</button>
-  <button onclick="window.open('https://meet.google.com/pdy-spdw-air')">физика 11 30</button>
-  <button onclick="window.open('https://meet.google.com/bjz-gkxx-ghz')">история 12 20</button>
-  <button onclick="window.open('https://meet.google.com/wza-ycrc-vdi')">химия 13 10</button>
-  <button onclick="window.open('https://meet.google.com/gzv-maxh-nzu')">география 13 10</button>
-  <button onclick="window.open('https://meet.google.com/tws-yxap-xzb')">алгебра 14 00</button>
-</body>
+  <button onclick="window.open('https://meet.google.com/szy-vmdy-hpx?authuser=0')">Укр мова 9:00</button>
+  <button onclick="window.open('https://meet.google.com/bjz-gkxx-ghz?authuser=0')">История украины 9:55</button>
+  <button onclick="window.open('https://meet.google.com/pdy-spdw-air?authuser=0')">физика 11:00</button>
+  <button onclick="window.open('https://meet.google.com/hfb-qege-orb?authuser=0')">захист укр 12:00</button>
+  <button onclick="window.open('https://meet.google.com/dqz-yjaj-fjg?authuser=0')">английский 13:00</button>
+  <button onclick="window.open('https://meet.google.com/dqz-yjaj-fjg?authuser=0')">английский 14:00</button>
+  <button onclick="window.open('https://meet.google.com/bjz-gkxx-ghz?authuser=0')">всесвитня история 15:00</button>
+
   <h1>Выбор урока среда</h1>
-  <button onclick="window.open('https://meet.google.com/oyw-neib-mwc')">биология 9 00</button>
-  <button onclick="window.open('https://meet.google.com/tws-yxap-xzb')">алгебра 9 50</button>
-  <button onclick="window.open('https://meet.google.com/bjz-gkxx-ghz')">захист укр 10 40</button>
-  <button onclick="window.open('https://meet.google.com/dqz-yjaj-fjg')">англ 11 30</button>
-  <button onclick="window.open('https://meet.google.com/dqz-yjaj-fjg')">англ 12 20</button>
-  <button onclick="window.open('https://meet.google.com/syh-bvvm-ykq')">информатика 13 10</button>
-</body>
+  <button onclick="window.open('https://meet.google.com/wza-ycrc-vdi?authuser=0')">химия 9:00</button>
+  <button onclick="window.open('https://meet.google.com/pdy-spdw-air?authuser=0')">физика 9:55</button>
+  <button onclick="window.open('https://meet.google.com/sdw-wrip-asw?authuser=0')">мистецтво 11:00</button>
+  <button onclick="window.open('https://meet.google.com/onz-rvuf-pwc?authuser=0')">физра 12:00</button>
+  <button onclick="window.open('https://meet.google.com/gzv-maxh-nzu?authuser=0')">география 13:00</button>
+  <button onclick="window.open('https://meet.google.com/oyw-neib-mwc?authuser=0')">биология 14:00</button>
+  <button onclick="window.open('https://meet.google.com/tws-yxap-xzb?authuser=0')">алгебра 15:00</button>
+
   <h1>Выбор урока четверг</h1>
-  <button onclick="window.open('https://meet.google.com/zkb-ejoe-szj')">геометрия 9 00</button>
-  <button onclick="window.open('https://meet.google.com/szy-vmdy-hpx')">укр мова 9 50</button>
-  <button onclick="window.open('https://meet.google.com/bjz-gkxx-ghz')">история укр 10 40</button>
-  <button onclick="window.open('https://meet.google.com/hfb-qege-orb')">захист украины 11 30</button>
-  <button onclick="window.open('https://meet.google.com/tiz-kfmq-irn')">укр лит 12 20</button>
-  <button onclick="window.open('https://meet.google.com/wza-ycrc-vdi')">химия 13 10</button>
-</body>
+  <button onclick="window.open('https://meet.google.com/tiz-kfmq-irn?authuser=0')">укр лит 9:00</button>
+  <button onclick="window.open('https://meet.google.com/zkb-ejoe-szj?authuser=0')">геометрия 9:55</button>
+  <button onclick="window.open('https://meet.google.com/tiz-kfmq-irn?authuser=0')">укр лит 11:00</button>
+  <button onclick="window.open('https://meet.google.com/szy-vmdy-hpx?authuser=0')">укр мова 12:00</button>
+  <button onclick="window.open('https://meet.google.com/oyw-neib-mwc?authuser=0')">биология 13:00</button>
+  <button onclick="window.open('https://meet.google.com/wza-ycrc-vdi')">заруб лит 14:00 (нет онлайн) </button>
+  <button onclick="window.open('https://meet.google.com/sdw-wrip-asw?authuser=0')">мистецтво 15:00</button>
+  <button onclick="window.open('https://meet.google.com/onz-rvuf-pwc?authuser=0')">физра 16:00</button>
+
   <h1>Выбор урока пятница</h1>
-  <button onclick="window.open('https://meet.google.com/szy-vmdy-hpx')">укр мова 9 00</button>
-  <button onclick="window.open('https://meet.google.com/tiz-kfmq-irn')">укр лит 9 50</button>
-  <button onclick="window.open('https://meet.google.com/dqz-yjaj-fjg')">англ 10 40</button>
-  <button onclick="window.open('https://meet.google.com/bjz-gkxx-ghz')">история укр 11 30</button>
-  <button onclick="window.open('https://meet.google.com/bjz-gkxx-ghz')">история укр 12 10</button>
+  <button onclick="window.open('https://meet.google.com/onz-rvuf-pwc?authuser=0')">физра 9:00</button>
+  <button onclick="window.open('https://meet.google.com/tws-yxap-xzb?authuser=0')">алгебра 9:55</button>
+  <button onclick="window.open('https://meet.google.com/wza-ycrc-vdi?authuser=0')">химия 11:00</button>
+  <button onclick="window.open('https://meet.google.com/bjz-gkxx-ghz?authuser=0')">История украины 12:00</button>
+  <button onclick="window.open('https://meet.google.com/hfb-qege-orb?authuser=0')">захист укр 13:00</button>
+  <button onclick="window.open('https://meet.google.com/tiz-kfmq-irn?authuser=0')">укр лит 14:00</button>
+  <button onclick="window.open('https://meet.google.com/pdy-spdw-air?authuser=0')">физика 15:00</button>
+
+  <button class="toggle-theme" onclick="toggleTheme()">Переключить тему</button>
+
+  <script>
+    function applyTheme(theme) {
+      if (theme === "dark") {
+        document.body.dataset.theme = "dark";
+        document.body.style.setProperty("--bg", "#121212");
+        document.body.style.setProperty("--fg", "#eee");
+      } else {
+        document.body.dataset.theme = "light";
+        document.body.style.setProperty("--bg", "#fff");
+        document.body.style.setProperty("--fg", "#000");
+      }
+    }
+
+    function toggleTheme() {
+      const current = localStorage.getItem("theme") || "light";
+      const next = current === "light" ? "dark" : "light";
+      localStorage.setItem("theme", next);
+      applyTheme(next);
+    }
+
+    // при загрузке страницы применяем сохранённую тему
+    const savedTheme = localStorage.getItem("theme") || "light";
+    applyTheme(savedTheme);
+  </script>
 </body>
 </html>
